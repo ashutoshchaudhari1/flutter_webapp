@@ -9,12 +9,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter web app',
+      title: 'Flutter web app vers 2',
       theme: ThemeData(
         
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.orange,
       ),
-      home: MyHomePage(title: 'Flutter Web app deployed to netlify'),
+      home: MyHomePage(title: 'Flutter Web app on netlify version 2'),
     );
   }
 }
